@@ -1,0 +1,182 @@
+body{
+	margin: 0;
+}
+.menu{
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #ffffff;
+	opacity: 0.8;
+}
+.menu a{
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+	width: 100px;
+	padding: 20px 40px;
+	font-weight: lighter;
+}
+.menu a:hover{
+	background: #cccccc;
+	color: #000000;
+}
+.header{
+	text-align: center;
+	color: #ffffff;
+	padding: 200px 0;
+	background-image: url(Images/polygons.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.header a{
+	padding: 12px 24px;
+	background: #ffffff;
+	border-radius:  10px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+}
+.header p{
+	margin: 45px 0;
+
+}
+.about{
+	margin: 0 auto;
+	padding: 40px 0;
+	max-width: 1200px;
+	text-align: justify;
+}
+.about h2{
+	text-align: center;
+}
+.about p{
+
+}
+.about img{
+width: 400px;
+float: right;
+margin: 30px;
+margin-top: 0;
+}
+.team{
+	text-align: center;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	min-width: 340px;
+	vertical-align: top;
+	margin: 20px 10px;
+	text-align: left;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px grey;
+} 
+.member img{
+	width: 100%;
+}
+.member h3{
+	font-weight: 500;
+	font-size: 24px;
+}
+.member .pos{
+	opacity: 0.6;
+}
+.member a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ffffffff;
+	padding: 14px 0;
+	text-align: center;
+}
+.prices{
+background-color: grey;
+text-align: center;
+padding: 50px 0;
+}
+.prices h2, .prices p{
+color: #ffffffff;
+}
+.price{
+	display: inline-block;
+	width: 30%;
+	min-width: 250px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: #ffffffff;
+	padding: 0;
+}
+.price li{
+	list-style-type: none;
+	border-bottom: 1px solid #DDDDDDDD;
+	padding: 16px 0;
+}
+.prices .price-name{
+	color: #ffffffff;
+	background-color: #000;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.price li:last-child{
+	padding: 24px 0;
+	background-color: #f1f1f1;
+}
+.price .best{
+	background-color: #055b73;
+	padding: 45px 0;
+}
+.price .cost{
+	color: #000000;
+	font-weight: bold;
+	font-size: 24px;
+}
+.price .period{
+	color: #000000;
+	opacity: 0.4;
+}
+.price a{
+	text-decoration: none;
+	color: #ffffff;
+	background: #000;
+	padding: 15px;
+	border-radius: 8px;
+}
+.contacts{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px 0;
+}
+.contact-info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+.contact-adress{
+	background-image: url(Images/address.png);
+}
+.contact-telephone{
+	background-image: url(Images/phone.png);
+}
+.contact-email{
+	background-image: url(Images/mail.png);
+}
+input{
+	padding: 8px;
+	width: 90%;
+}
+button{
+	color: #fff;
+	background-color: #000;
+	border-radius: 8px;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
